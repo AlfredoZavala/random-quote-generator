@@ -52,7 +52,7 @@ const QuoteBox = () => {
 
     return (  
         <div className="quotebox" id="quote-box">
-            <p id="text"> <IoMdQuote /> { quote }</p>
+            <p id="text"> { quote }</p>
             <p id="author">- { author }</p>
             <div className="buttons">
                 <a id="tweet-quote" target="_blank" href={twitterLink}>
